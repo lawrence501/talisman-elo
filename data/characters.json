@@ -36,8 +36,9 @@
   "shapeshifter": -16.0,
   "knight": -1.4,
   "jester": 0.0,
-  "amazon": 0.0,
+  "amazon": -16.0,
   "druid": -16.7,
   "swashbuckler": 16.0,
-  "warrior": -14.5
+  "warrior": -14.5,
+  "assassin": 16.0
 }
