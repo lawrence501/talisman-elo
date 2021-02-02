@@ -44,8 +44,8 @@ def updateElo(char1, char2, char1Score=1):
         newRating1, newRating2 = calculateNewElo(
             characterData[char1], characterData[char2], char1Score)
 
-        characterData[char1] = newRating1, 1
-        characterData[char2] = newRating2, 1
+        characterData[char1] = newRating1
+        characterData[char2] = newRating2
 
         f.seek(0)
         json.dump(characterData, f, indent=2)
