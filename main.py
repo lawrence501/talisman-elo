@@ -55,7 +55,7 @@ def updateElo(char1, char2, char1Score=1):
 if __name__ == "__main__":
     while True:
         try:
-            winner = input("Winner: ")
+            winner = input("\nWinner: ")
             if winner == "":
                 drawer1 = input("1st character: ")
                 drawer2 = input("2nd character: ")

@@ -1,4 +1,6 @@
 {
-  "Warlord": 16.0,
-  "Cat Burglar": -16.0
+  "warlord": 16.0,
+  "cat burglar": -16.0,
+  "genie": 16.0,
+  "chivalric knight": -16.0
 }
