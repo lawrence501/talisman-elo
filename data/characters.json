@@ -1,5 +1,5 @@
 {
-  "warlord": 16.0,
+  "warlord": 31.3,
   "cat burglar": -15.3,
   "genie": 16.0,
   "chivalric knight": -29.8,
@@ -14,11 +14,11 @@
   "mutant": 46.6,
   "dwarf": -16.0,
   "dragon rider": -0.8,
-  "martyr": 0.0,
+  "martyr": -15.3,
   "ancient oak": 0.0,
   "woodsman": 15.9,
   "dread knight": 45.9,
-  "bounty hunter": -14.8,
+  "bounty hunter": 1.9,
   "leywalker": 0.0,
   "illusionist": -15.3,
   "valkyrie": -1.4,
@@ -32,7 +32,12 @@
   "pirate": -0.7,
   "courtesan": -0.0,
   "vampiress": -14.6,
-  "scout": 16.0,
+  "scout": 14.5,
   "shapeshifter": -16.0,
-  "knight": -1.4
+  "knight": -1.4,
+  "jester": 0.0,
+  "amazon": 0.0,
+  "druid": -16.7,
+  "swashbuckler": 16.0,
+  "warrior": -14.5
 }
