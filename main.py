@@ -15,7 +15,7 @@ def getExpectedScore(subjectTrans, opponentTrans):
 
 
 def getNewRating(rating, score, expectedScore):
-    return rating + K*(score - expectedScore)
+    return round(rating + K*(score - expectedScore), 1)
 
 
 def calculateNewElo(rating1, rating2, score1):
@@ -44,8 +44,8 @@ def updateElo(char1, char2, char1Score=1):
         newRating1, newRating2 = calculateNewElo(
             characterData[char1], characterData[char2], char1Score)
 
-        characterData[char1] = newRating1
-        characterData[char2] = newRating2
+        characterData[char1] = newRating1, 1
+        characterData[char2] = newRating2, 1
 
         f.seek(0)
         json.dump(characterData, f, indent=2)

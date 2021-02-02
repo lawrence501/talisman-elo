@@ -2,5 +2,15 @@
   "warlord": 16.0,
   "cat burglar": -16.0,
   "genie": 16.0,
-  "chivalric knight": -16.0
+  "chivalric knight": -16.0,
+  "spy": 16.0,
+  "ninja": -16.0,
+  "dragon hunter": 16.0,
+  "tinkerer": -16.0,
+  "elf": 16.0,
+  "grave robber": -16.0,
+  "swindler": 16.0,
+  "dark cultist": -16.0,
+  "mutant": 16.0,
+  "dwarf": -16.0
 }
