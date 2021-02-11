@@ -44,6 +44,9 @@ def updateElo(char1, char2, char1Score=1):
         newRating1, newRating2 = calculateNewElo(
             characterData[char1], characterData[char2], char1Score)
 
+        print("%s: %d" % (char1, newRating1))
+        print("%s: %d" % (char2, newRating2))
+
         characterData[char1] = newRating1
         characterData[char2] = newRating2
 
