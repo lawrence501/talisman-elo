@@ -3,7 +3,7 @@
   "cat burglar": -15.3,
   "genie": -29.4,
   "chivalric knight": -29.8,
-  "spy": 41.9,
+  "spy": 56.0,
   "ninja": -30.6,
   "dragon hunter": -2.9,
   "tinkerer": 1.5,
@@ -55,5 +55,6 @@
   "trophy hunter": -16.8,
   "gambler": -16.7,
   "pilgrim": -31.2,
-  "monk": -15.4
+  "monk": -15.4,
+  "black witch": -14.1
 }
