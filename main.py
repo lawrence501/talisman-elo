@@ -41,11 +41,12 @@ def updateElo(char1, char2, char1Score=1):
         if char2 not in characterData:
             characterData[char2] = 0
 
+        oldRating1, oldRating2 = characterData[char1], characterData[char2]
         newRating1, newRating2 = calculateNewElo(
             characterData[char1], characterData[char2], char1Score)
 
-        print("%s: %.1f" % (char1, newRating1))
-        print("%s: %.1f" % (char2, newRating2))
+        print("%s: %.1f --> %.1f" % (char1, oldRating1, newRating1))
+        print("%s:  %.1f --> %.1f" % (char2, oldRating2, newRating2))
 
         characterData[char1] = newRating1
         characterData[char2] = newRating2
