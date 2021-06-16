@@ -1,4 +1,5 @@
 import json
+import secrets
 import random
 from os import sep, path
 import sys
@@ -14,7 +15,7 @@ def randomiseCharacter():
 
         eloValues = list(values.keys())
         eloValues.sort()
-        char1Idx = random.randint(0, len(values) - 1)
+        char1Idx = secrets.randbelow(len(values))
 
         char1Val = eloValues[char1Idx]
         char1 = values[char1Val]
@@ -33,5 +34,8 @@ def randomiseCharacter():
         print(char1)
         print(char2)
 
+
 if __name__ == "__main__":
-    randomiseCharacter()
+    while True:
+        randomiseCharacter()
+        input("Press enter for the next characters")
