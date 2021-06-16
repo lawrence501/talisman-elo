@@ -89,5 +89,19 @@
   "tavern maid": -15.3,
   "warlock": 46.0,
   "arcane scion": 15.4,
-  "artificer": -16.5
+  "artificer": -16.5,
+  "necromancer": 0,
+  "ogre chieftain": 0,
+  "gladiator": 0,
+  "rogue": 0,
+  "cleric": 0,
+  "doomsayer": 0,
+  "archon": 0,
+  "clairvoyant": 0,
+  "engineer": 0,
+  "exorcist": 0,
+  "devil's minion": 0,
+  "goblin shaman": 0,
+  "witch doctor": 0,
+  "witch hunter": 0
 }
