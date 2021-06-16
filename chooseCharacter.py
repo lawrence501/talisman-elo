@@ -11,22 +11,26 @@ def randomiseCharacter():
         rawData = json.load(f)
         charData = list(rawData.items())
         random.shuffle(charData)
-        values = {v: k for k, v in charData}
 
+        values = {v: k for k, v in charData}
         eloValues = list(values.keys())
         eloValues.sort()
-        char1Idx = secrets.randbelow(len(values))
 
+        char1Idx = secrets.randbelow(len(values))
         char1Val = eloValues[char1Idx]
         char1 = values[char1Val]
-        if char1Idx == len(values):
+        if char1Idx == len(values) - 1:
             char2 = values[eloValues[char1Idx - 1]]
         elif char1Idx == 0:
             char2 = values[eloValues[char1Idx + 1]]
         else:
             lower = eloValues[char1Idx - 1]
             higher = eloValues[char1Idx + 1]
-            if (char1Val - lower) > (higher - char1Val):
+            lowDiff = (char1Val - lower)
+            highDiff = (higher - char1Val)
+            if lowDiff == highDiff:
+                char2 = values[secrets.choice([lower, higher])]
+            elif lowDiff > highDiff:
                 char2 = values[higher]
             else:
                 char2 = values[lower]
