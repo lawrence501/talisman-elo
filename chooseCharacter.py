@@ -1,42 +1,38 @@
 import json
 import secrets
-import random
 from os import sep, path
 import sys
 
 DATA_DIR = path.dirname(path.realpath(sys.argv[0])) + sep + "data" + sep
 
+
 def randomiseCharacter():
     with open(DATA_DIR + "characters.json", 'r+') as f:
         rawData = json.load(f)
-        charData = list(rawData.items())
-        random.shuffle(charData)
+        chars = sorted(list(rawData.items()),
+                       key=lambda k: rawData[k[0]])
+        numChars = len(chars)
 
-        values = {v: k for k, v in charData}
-        eloValues = list(values.keys())
-        eloValues.sort()
-
-        char1Idx = secrets.randbelow(len(values))
-        char1Val = eloValues[char1Idx]
-        char1 = values[char1Val]
-        if char1Idx == len(values) - 1:
-            char2 = values[eloValues[char1Idx - 1]]
+        char1Idx = secrets.randbelow(numChars)
+        char1, char1Val = chars[char1Idx]
+        if char1Idx == numChars - 1:
+            char2 = chars[char1Idx - 1]
         elif char1Idx == 0:
-            char2 = values[eloValues[char1Idx + 1]]
+            char2 = chars[char1Idx + 1]
         else:
-            lower = eloValues[char1Idx - 1]
-            higher = eloValues[char1Idx + 1]
-            lowDiff = (char1Val - lower)
-            highDiff = (higher - char1Val)
+            lower, lowerVal = chars[char1Idx - 1]
+            higher, higherVal = chars[char1Idx + 1]
+            lowDiff = (char1Val - lowerVal)
+            highDiff = (higherVal - char1Val)
             if lowDiff == highDiff:
-                char2 = values[secrets.choice([lower, higher])]
+                char2 = secrets.choice([lower, higher])
             elif lowDiff > highDiff:
-                char2 = values[higher]
+                char2 = higher
             else:
-                char2 = values[lower]
+                char2 = lower
 
-        print(char1)
-        print(char2)
+        print("Player 1: {} ({})".format(char1, char1Val))
+        print("Player 2: {} ({})".format(char2, rawData[char2]))
 
 
 if __name__ == "__main__":
