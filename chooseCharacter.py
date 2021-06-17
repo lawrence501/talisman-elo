@@ -16,9 +16,9 @@ def randomiseCharacter():
         char1Idx = secrets.randbelow(numChars)
         char1, char1Val = chars[char1Idx]
         if char1Idx == numChars - 1:
-            char2 = chars[char1Idx - 1]
+            char2 = chars[char1Idx - 1][0]
         elif char1Idx == 0:
-            char2 = chars[char1Idx + 1]
+            char2 = chars[char1Idx + 1][0]
         else:
             lower, lowerVal = chars[char1Idx - 1]
             higher, higherVal = chars[char1Idx + 1]
@@ -30,7 +30,6 @@ def randomiseCharacter():
                 char2 = higher
             else:
                 char2 = lower
-
         print("Player 1: {} ({})".format(char1, char1Val))
         print("Player 2: {} ({})".format(char2, rawData[char2]))
 
