@@ -4,7 +4,7 @@ from os import sep, path
 import sys
 
 DATA_DIR = path.dirname(path.realpath(sys.argv[0])) + sep + "data" + sep
-
+SAME_CHARACTER_CHANCE = 5
 
 def randomiseCharacter():
     with open(DATA_DIR + "characters.json", 'r+') as f:
@@ -15,10 +15,13 @@ def randomiseCharacter():
 
         char1Idx = secrets.randbelow(numChars)
         char1, char1Val = chars[char1Idx]
-        if char1Idx == numChars - 1:
+        sameCharRoll = secrets.randbelow(100)
+        if sameCharRoll < SAME_CHARACTER_CHANCE:
+            char2 = char1
+        elif char1Idx == numChars - 1:
             char2 = chars[char1Idx - 1][0]
         elif char1Idx == 0:
-            char2 = chars[char1Idx + 1][0]
+            char2 = chars[1][0]
         else:
             lower, lowerVal = chars[char1Idx - 1]
             higher, higherVal = chars[char1Idx + 1]
