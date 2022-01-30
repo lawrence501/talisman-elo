@@ -2,6 +2,7 @@ import json
 import sys
 from os import sep, path
 from git import Repo
+from git import Git
 
 DATA_DIR = path.dirname(path.realpath(sys.argv[0])) + sep + "data" + sep
 K = 32
@@ -60,11 +61,12 @@ def updateElo(char1, char2, char1Score=1):
     if char1Score == 0.5:
         verb = "drew with"
     commitMsg = "%s %s %s" %(char1, verb, char2)
-    repo = Repo(path.dirname(path.realpath(sys.argv[0])) + sep + ".git")
-    repo.git.add(update=True)
-    repo.index.commit(commitMsg)
-    origin = repo.remote(name="origin")
-    origin.push()
+    with Git().custom_environment(GIT_SSH_COMMAND="ssh -i %s" %path.expanduser("~/.ssh/id_rsa")):
+        repo = Repo(path.dirname(path.realpath(sys.argv[0])) + sep + ".git")
+        repo.git.add(update=True)
+        repo.index.commit(commitMsg)
+        origin = repo.remote(name="origin")
+        origin.push()
 
 if __name__ == "__main__":
     while True:
