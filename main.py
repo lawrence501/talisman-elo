@@ -45,7 +45,7 @@ def updateElo(char1, char2, char1Score=1):
 
         oldRating1, oldRating2 = characterData[char1], characterData[char2]
         newRating1, newRating2 = calculateNewElo(
-            characterData[char1], characterData[char2], char1Score)
+            oldRating1, oldRating2, char1Score)
 
         print("%s: %.1f --> %.1f" % (char1, oldRating1, newRating1))
         print("%s:  %.1f --> %.1f" % (char2, oldRating2, newRating2))
@@ -56,17 +56,6 @@ def updateElo(char1, char2, char1Score=1):
         f.seek(0)
         json.dump(characterData, f, indent=2)
         f.truncate()
-
-    verb = "defeated"
-    if char1Score == 0.5:
-        verb = "drew with"
-    commitMsg = "%s %s %s" %(char1, verb, char2)
-    with Git().custom_environment(GIT_SSH_COMMAND="ssh -i %s" %path.expanduser("~/.ssh/id_rsa")):
-        repo = Repo(path.dirname(path.realpath(sys.argv[0])) + sep + ".git")
-        repo.git.add(update=True)
-        repo.index.commit(commitMsg)
-        origin = repo.remote(name="origin")
-        origin.push()
 
 if __name__ == "__main__":
     while True:
