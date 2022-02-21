@@ -57,6 +57,15 @@ def updateElo(char1, char2, char1Score=1):
         json.dump(characterData, f, indent=2)
         f.truncate()
 
+        verb = "defeated"
+        if char1Score == 0.5:
+            verb = "drew with"
+        commitMsg = "%s %s %s" % (char1, verb, char2)
+        with Git().custom_environment(GIT_SSH_COMMAND="ssh -i %s" % path.expanduser("~/.ssh/id_rsa")):
+            repo = Repo(path.dirname(path.realpath(sys.argv[0])) + sep + ".git")
+            repo.git.add(update=True)
+            repo.index.commit(commitMsg)
+
 if __name__ == "__main__":
     while True:
         try:
