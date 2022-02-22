@@ -64,7 +64,7 @@
   "thief": 2.2,
   "elementalist": -13.5,
   "sorceress": -16.0,
-  "possessed": 32.1,
+  "possessed": 48.1,
   "minotaur": -2.2,
   "samurai": -0.7,
   "pathfinder": 48.2,
@@ -102,5 +102,5 @@
   "devil's minion": 16.0,
   "goblin shaman": -16.0,
   "witch doctor": -16.0,
-  "witch hunter": 32.0
+  "witch hunter": 16.0
 }
