@@ -53,8 +53,11 @@ def updateElo(char1, char2, char1Score=1):
         characterData[char1] = newRating1
         characterData[char2] = newRating2
 
+        sortedData = sorted(list(characterData.items()),
+                       key=lambda k: characterData[k[0]])
+
         f.seek(0)
-        json.dump(characterData, f, indent=2)
+        json.dump(sortedData, f, indent=2)
         f.truncate()
 
         verb = "defeated"
