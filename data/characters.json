@@ -27,6 +27,7 @@
   "ninja": -24.8,
   "elf": -20.3,
   "samurai": -16.7,
+  "artificer": -16.5,
   "sorceress": -16.0,
   "ghoul": -16.0,
   "philosopher": -16.0,
@@ -51,8 +52,6 @@
   "tinkerer": -1.6,
   "knight": -1.4,
   "illusionist": -0.6,
-  "jester": -0.5,
-  "artificer": -0.5,
   "spider queen": 0.0,
   "necromancer": 0.0,
   "cleric": 0.0,
@@ -70,6 +69,7 @@
   "valkyrie": 13.9,
   "wizard": 15.0,
   "woodsman": 15.0,
+  "jester": 15.5,
   "exorcist": 16.0,
   "minstrel": 16.0,
   "swindler": 16.6,
@@ -103,4 +103,3 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
-}
