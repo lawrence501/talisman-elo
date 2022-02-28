@@ -26,6 +26,7 @@
   "totem warrior": -26.4,
   "ninja": -24.8,
   "elf": -20.3,
+  "samurai": -16.7,
   "sorceress": -16.0,
   "ghoul": -16.0,
   "philosopher": -16.0,
@@ -48,8 +49,6 @@
   "minotaur": -2.2,
   "tinkerer": -1.6,
   "knight": -1.4,
-  "wizard": -1.0,
-  "samurai": -0.7,
   "illusionist": -0.6,
   "jester": -0.5,
   "artificer": -0.5,
@@ -70,6 +69,7 @@
   "apprentice mage": 10.0,
   "swordsman": 10.4,
   "valkyrie": 13.9,
+  "wizard": 15.0,
   "woodsman": 15.0,
   "minstrel": 16.0,
   "swindler": 16.6,
@@ -103,4 +103,3 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
-}
