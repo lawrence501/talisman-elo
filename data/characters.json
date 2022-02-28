@@ -82,6 +82,7 @@
   "devil's minion": 32.0,
   "priest": 32.0,
   "ogre chieftain": 32.0,
+  "pathfinder": 32.5,
   "nomad": 32.7,
   "martyr": 34.2,
   "assassin": 35.1,
@@ -93,13 +94,13 @@
   "dread knight": 46.0,
   "saracen": 46.8,
   "possessed": 48.1,
-  "pathfinder": 48.2,
-  "conjurer": 55.3,
   "arcane scion": 63.3,
   "tavern maid": 64.7,
+  "conjurer": 71.0,
   "mutant": 74.3,
   "alchemist": 75.2,
   "sprite": 77.0,
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
+}
