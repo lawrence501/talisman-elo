@@ -36,6 +36,7 @@
   "witch doctor": -16.0,
   "witch hunter": -16.0,
   "doomsayer": -16.0,
+  "spider queen": -16.0,
   "black knight": -15.9,
   "leywalker": -15.8,
   "cat burglar": -14.6,
@@ -52,8 +53,6 @@
   "woodsman": -1.0,
   "illusionist": -0.6,
   "artificer": -0.5,
-  "sorceress": 0.0,
-  "spider queen": 0.0,
   "necromancer": 0.0,
   "cleric": 0.0,
   "barbarian": 0.6,
@@ -69,6 +68,7 @@
   "swordsman": 10.4,
   "valkyrie": 13.9,
   "jester": 15.5,
+  "sorceress": 16.0,
   "clairvoyant": 16.0,
   "exorcist": 16.0,
   "minstrel": 16.0,
@@ -103,4 +103,3 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
-}
