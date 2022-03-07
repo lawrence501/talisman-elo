@@ -18,6 +18,7 @@
   "ghoul": -32.0,
   "jin blooded": -31.3,
   "satyr": -31.3,
+  "gypsie": -31.3,
   "martial artist": -31.1,
   "spy": -30.3,
   "highlander": -29.8,
@@ -37,8 +38,6 @@
   "doomsayer": -16.0,
   "black knight": -15.9,
   "leywalker": -15.8,
-  "barbarian": -15.4,
-  "gypsie": -15.3,
   "cat burglar": -14.6,
   "druid": -13.9,
   "merchant": -13.7,
@@ -57,6 +56,7 @@
   "spider queen": 0.0,
   "necromancer": 0.0,
   "cleric": 0.0,
+  "barbarian": 0.6,
   "dwarf": 0.7,
   "spectre collector": 0.8,
   "chivalric knight": 2.2,
@@ -103,3 +103,4 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
+}
