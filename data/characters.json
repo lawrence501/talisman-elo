@@ -77,6 +77,7 @@
   "black witch": 25.4,
   "bounty hunter": 26.1,
   "scout": 29.4,
+  "dread knight": 29.8,
   "vampire": 30.5,
   "wizard": 31.0,
   "devil's minion": 32.0,
@@ -89,11 +90,10 @@
   "assassin": 35.1,
   "scavenger": 37.4,
   "pilgrim": 38.3,
-  "sage": 42.4,
-  "dread knight": 46.0,
   "saracen": 46.8,
   "possessed": 48.1,
   "ascendant divine": 56.5,
+  "sage": 58.6,
   "arcane scion": 63.3,
   "tavern maid": 64.7,
   "conjurer": 71.0,
@@ -103,3 +103,4 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
+}
