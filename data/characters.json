@@ -24,6 +24,7 @@
   "highlander": -29.8,
   "ranger": -29.7,
   "gambler": -29.5,
+  "elementalist": -29.5,
   "shapeshifter": -27.8,
   "monk": -26.6,
   "totem warrior": -26.4,
@@ -43,8 +44,6 @@
   "cat burglar": -14.6,
   "druid": -13.9,
   "merchant": -13.7,
-  "elementalist": -13.5,
-  "dragon rider": -13.4,
   "amazon": -12.7,
   "warlord": -7.1,
   "tinkerer": -1.6,
@@ -60,6 +59,7 @@
   "chivalric knight": 2.2,
   "celestial": 2.2,
   "thief": 2.2,
+  "dragon rider": 2.6,
   "specialist": 3.5,
   "warrior": 4.2,
   "prophetess": 9.2,
@@ -103,3 +103,4 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
+}
