@@ -30,6 +30,7 @@
   "ninja": -24.8,
   "elf": -20.3,
   "swashbuckler": -18.2,
+  "illusionist": -16.6,
   "philosopher": -16.0,
   "rogue": -16.0,
   "engineer": -16.0,
@@ -51,8 +52,6 @@
   "tinkerer": -1.6,
   "knight": -1.4,
   "woodsman": -1.0,
-  "illusionist": -0.6,
-  "artificer": -0.5,
   "necromancer": 0.0,
   "cleric": 0.0,
   "barbarian": 0.6,
@@ -65,6 +64,7 @@
   "specialist": 3.5,
   "warrior": 4.2,
   "prophetess": 9.2,
+  "artificer": 15.5,
   "jester": 15.5,
   "sorceress": 16.0,
   "clairvoyant": 16.0,
@@ -103,4 +103,3 @@
   "fire wizard": 89.5,
   "warlock": 94.1,
   "leprechaun": 96.7
-}
