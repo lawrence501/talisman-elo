@@ -93,14 +93,14 @@
   "saracen": 46.8,
   "priest": 48.0,
   "possessed": 48.1,
+  "mutant": 58.3,
   "arcane scion": 63.3,
   "tavern maid": 64.7,
   "conjurer": 71.0,
   "ascendant divine": 72.6,
-  "mutant": 74.3,
-  "alchemist": 75.2,
   "sprite": 77.0,
   "warlock": 78.2,
   "fire wizard": 89.5,
+  "alchemist": 91.2,
   "leprechaun": 112.6
 }
