@@ -31,6 +31,7 @@
   "ninja": -24.8,
   "elf": -20.3,
   "swashbuckler": -18.2,
+  "knight": -17.4,
   "illusionist": -16.6,
   "philosopher": -16.0,
   "rogue": -16.0,
@@ -47,8 +48,6 @@
   "warlord": -7.1,
   "swordsman": -5.6,
   "minotaur": -2.2,
-  "tinkerer": -1.6,
-  "knight": -1.4,
   "woodsman": -1.0,
   "spider queen": 0.0,
   "witch hunter": 0.0,
@@ -66,6 +65,7 @@
   "warrior": 4.2,
   "prophetess": 9.2,
   "bounty hunter": 10.1,
+  "tinkerer": 14.4,
   "artificer": 15.5,
   "jester": 15.5,
   "sorceress": 16.0,
@@ -103,4 +103,3 @@
   "fire wizard": 89.5,
   "alchemist": 91.2,
   "leprechaun": 112.6
-}
