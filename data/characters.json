@@ -1,10 +1,10 @@
 {
   "vampire hunter": -100.1,
+  "troll": -94.1,
   "dark cultist": -93.4,
-  "magus": -78.6,
-  "troll": -78.1,
   "pirate": -76.9,
   "vampiress": -75.1,
+  "magus": -62.6,
   "dervish": -61.0,
   "shaman": -51.6,
   "trophy hunter": -49.2,
@@ -103,3 +103,4 @@
   "fire wizard": 89.5,
   "alchemist": 91.2,
   "leprechaun": 112.6
+}
