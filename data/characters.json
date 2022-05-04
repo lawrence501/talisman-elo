@@ -72,14 +72,13 @@
   "sorceress": 16.0,
   "minstrel": 16.0,
   "devil's minion": 16.0,
+  "clairvoyant": 16.0,
   "swindler": 16.6,
   "courtesan": 17.0,
   "black witch": 25.4,
   "valkyrie": 29.9,
   "vampire": 30.5,
   "wizard": 31.0,
-  "clairvoyant": 32.0,
-  "ogre chieftain": 32.0,
   "pathfinder": 32.5,
   "nomad": 32.7,
   "ancient oak": 32.8,
@@ -91,6 +90,7 @@
   "sage": 42.5,
   "scout": 45.4,
   "saracen": 46.8,
+  "ogre chieftain": 48.0,
   "priest": 48.0,
   "possessed": 48.1,
   "mutant": 58.3,
@@ -103,3 +103,4 @@
   "fire wizard": 89.5,
   "alchemist": 91.2,
   "leprechaun": 112.6
+}
