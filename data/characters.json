@@ -46,6 +46,7 @@
   "elementalist": -13.5,
   "monk": -10.6,
   "warlord": -7.1,
+  "bounty hunter": -5.9,
   "swordsman": -5.6,
   "minotaur": -2.2,
   "witch hunter": 0.0,
@@ -62,8 +63,6 @@
   "amazon": 3.3,
   "specialist": 3.5,
   "warrior": 4.2,
-  "prophetess": 9.2,
-  "bounty hunter": 10.1,
   "dread knight": 13.8,
   "tinkerer": 14.4,
   "artificer": 15.5,
@@ -74,6 +73,7 @@
   "swindler": 16.6,
   "dwarf": 16.7,
   "courtesan": 17.0,
+  "prophetess": 25.2,
   "black witch": 25.4,
   "valkyrie": 29.9,
   "vampire": 30.5,
@@ -103,4 +103,3 @@
   "fire wizard": 89.5,
   "alchemist": 91.2,
   "leprechaun": 112.6
-}
