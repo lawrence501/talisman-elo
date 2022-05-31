@@ -6,12 +6,11 @@
   "vampiress": -75.1,
   "trophy hunter": -65.3,
   "magus": -62.6,
+  "highlander": -61.8,
   "dervish": -61.0,
   "samurai": -48.7,
   "gladiator": -48.0,
   "archon": -47.9,
-  "highlander": -45.8,
-  "gambler": -45.5,
   "shapeshifter": -43.9,
   "totem warrior": -42.4,
   "genie": -41.9,
@@ -27,6 +26,7 @@
   "martial artist": -31.1,
   "druid": -29.9,
   "ranger": -29.7,
+  "gambler": -29.5,
   "ninja": -24.8,
   "elf": -20.3,
   "swashbuckler": -18.2,
@@ -103,3 +103,4 @@
   "fire wizard": 89.5,
   "alchemist": 91.2,
   "leprechaun": 112.6
+}
