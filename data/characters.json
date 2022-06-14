@@ -5,13 +5,12 @@
   "pirate": -76.9,
   "vampiress": -75.1,
   "trophy hunter": -65.3,
+  "archon": -63.8,
   "magus": -62.6,
   "highlander": -61.8,
   "dervish": -61.0,
   "samurai": -48.7,
   "gladiator": -48.0,
-  "archon": -47.9,
-  "cat burglar": -46.6,
   "shapeshifter": -43.9,
   "totem warrior": -42.4,
   "genie": -41.9,
@@ -26,6 +25,7 @@
   "jin blooded": -31.3,
   "satyr": -31.3,
   "gypsie": -31.3,
+  "cat burglar": -30.7,
   "druid": -29.9,
   "ranger": -29.7,
   "gambler": -29.5,
@@ -103,3 +103,4 @@
   "warlock": 94.1,
   "alchemist": 107.1,
   "leprechaun": 112.6
+}
