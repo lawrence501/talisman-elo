@@ -51,6 +51,7 @@
   "cleric": 0.0,
   "exorcist": 0.0,
   "sorceress": 0.0,
+  "clairvoyant": 0.0,
   "spectre collector": 0.8,
   "spy": 1.7,
   "chivalric knight": 2.2,
@@ -69,8 +70,6 @@
   "jester": 15.5,
   "witch hunter": 16.0,
   "spider queen": 16.0,
-  "devil's minion": 16.0,
-  "clairvoyant": 16.0,
   "swindler": 16.6,
   "dwarf": 16.7,
   "nomad": 16.7,
@@ -79,6 +78,7 @@
   "black witch": 25.4,
   "saracen": 30.7,
   "wizard": 31.0,
+  "devil's minion": 32.0,
   "minstrel": 32.0,
   "priest": 32.0,
   "tavern maid": 32.6,
@@ -103,3 +103,4 @@
   "warlock": 94.1,
   "alchemist": 107.1,
   "leprechaun": 112.6
+}
