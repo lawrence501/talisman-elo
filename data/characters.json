@@ -38,6 +38,7 @@
   "engineer": -16.0,
   "goblin shaman": -16.0,
   "necromancer": -16.0,
+  "sorceress": -16.0,
   "black knight": -15.9,
   "leywalker": -15.8,
   "barbarian": -15.4,
@@ -50,8 +51,6 @@
   "dragon priestess": -1.0,
   "cleric": 0.0,
   "exorcist": 0.0,
-  "sorceress": 0.0,
-  "clairvoyant": 0.0,
   "spider queen": 0.0,
   "nomad": 0.7,
   "spectre collector": 0.8,
@@ -70,6 +69,7 @@
   "tinkerer": 14.4,
   "artificer": 15.5,
   "jester": 15.5,
+  "clairvoyant": 16.0,
   "priest": 16.0,
   "swindler": 16.6,
   "courtesan": 17.0,
@@ -103,4 +103,3 @@
   "warlock": 94.1,
   "leprechaun": 96.3,
   "alchemist": 123.4
-}
