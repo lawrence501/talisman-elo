@@ -48,6 +48,7 @@
   "warlord": -7.1,
   "swashbuckler": -2.2,
   "minotaur": -2.2,
+  "dread knight": -2.2,
   "dragon priestess": -1.0,
   "cleric": 0.0,
   "exorcist": 0.0,
@@ -64,8 +65,6 @@
   "specialist": 3.5,
   "warrior": 4.2,
   "bounty hunter": 10.1,
-  "dread knight": 13.8,
-  "valkyrie": 13.9,
   "tinkerer": 14.4,
   "artificer": 15.5,
   "jester": 15.5,
@@ -75,6 +74,7 @@
   "courtesan": 17.0,
   "prophetess": 25.2,
   "black witch": 25.4,
+  "valkyrie": 29.9,
   "saracen": 30.7,
   "wizard": 31.0,
   "witch hunter": 32.0,
@@ -103,3 +103,4 @@
   "warlock": 94.1,
   "leprechaun": 96.3,
   "alchemist": 123.4
+}
