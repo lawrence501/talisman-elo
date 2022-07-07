@@ -21,6 +21,7 @@
   "knight": -33.4,
   "woodsman": -33.0,
   "ghoul": -32.0,
+  "engineer": -32.0,
   "jin blooded": -31.3,
   "satyr": -31.3,
   "gypsie": -31.3,
@@ -35,8 +36,6 @@
   "illusionist": -16.6,
   "doomsayer": -16.0,
   "philosopher": -16.0,
-  "rogue": -16.0,
-  "engineer": -16.0,
   "goblin shaman": -16.0,
   "necromancer": -16.0,
   "sorceress": -16.0,
@@ -49,6 +48,7 @@
   "warlord": -7.1,
   "dread knight": -2.2,
   "dragon priestess": -1.0,
+  "rogue": 0.0,
   "cleric": 0.0,
   "exorcist": 0.0,
   "spider queen": 0.0,
@@ -103,3 +103,4 @@
   "warlock": 94.1,
   "leprechaun": 96.3,
   "alchemist": 123.4
+}
