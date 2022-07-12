@@ -94,13 +94,13 @@
   "minstrel": 48.0,
   "sprite": 61.1,
   "scout": 61.5,
+  "arcane scion": 63.4,
   "possessed": 64.1,
   "fire wizard": 73.6,
   "mutant": 74.2,
-  "arcane scion": 79.4,
-  "ogre chieftain": 80.0,
   "conjurer": 87.1,
   "warlock": 94.1,
+  "ogre chieftain": 96.0,
   "leprechaun": 96.3,
   "alchemist": 123.4
 }
