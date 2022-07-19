@@ -34,6 +34,7 @@
   "swordsman": -21.6,
   "elf": -20.3,
   "shaman": -19.6,
+  "dread knight": -18.4,
   "swashbuckler": -18.2,
   "illusionist": -16.6,
   "goblin shaman": -16.0,
@@ -44,8 +45,6 @@
   "leywalker": -15.8,
   "barbarian": -15.4,
   "martial artist": -15.1,
-  "warlord": -7.1,
-  "dread knight": -2.2,
   "dragon priestess": -1.0,
   "doomsayer": 0.0,
   "exorcist": 0.0,
@@ -63,6 +62,7 @@
   "specialist": 3.5,
   "warrior": 4.2,
   "monk": 5.3,
+  "warlord": 9.1,
   "bounty hunter": 10.1,
   "minotaur": 13.8,
   "tinkerer": 14.4,
@@ -103,3 +103,4 @@
   "ogre chieftain": 96.0,
   "leprechaun": 96.3,
   "alchemist": 123.4
+}
