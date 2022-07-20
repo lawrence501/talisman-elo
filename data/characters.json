@@ -72,6 +72,7 @@
   "witch hunter": 16.0,
   "swindler": 16.6,
   "courtesan": 17.0,
+  "pilgrim": 22.3,
   "prophetess": 25.2,
   "black witch": 25.4,
   "valkyrie": 29.9,
@@ -84,8 +85,6 @@
   "ancient oak": 32.8,
   "martyr": 34.2,
   "assassin": 35.1,
-  "scavenger": 37.4,
-  "pilgrim": 38.3,
   "ascendant divine": 40.6,
   "apprentice mage": 42.0,
   "sage": 42.5,
@@ -93,6 +92,7 @@
   "vampire": 46.5,
   "devil's minion": 48.0,
   "minstrel": 48.0,
+  "scavenger": 53.4,
   "arcane scion": 63.4,
   "possessed": 64.1,
   "fire wizard": 73.6,
@@ -102,4 +102,5 @@
   "ogre chieftain": 96.0,
   "leprechaun": 96.3,
   "conjurer": 103.4,
-  "alchemist": 123.4
+  "alchemist": 123.4
+}
