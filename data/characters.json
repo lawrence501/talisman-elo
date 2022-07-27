@@ -12,7 +12,7 @@
   "grave robber": -54.2,
   "knight": -49.4,
   "samurai": -48.7,
-  "satyr": -45.9,
+  "satyr": -47.3,
   "elementalist": -45.4,
   "dervish": -45.0,
   "shapeshifter": -43.9,
@@ -24,7 +24,6 @@
   "engineer": -32.0,
   "philosopher": -32.0,
   "jin blooded": -31.3,
-  "gypsie": -31.3,
   "cat burglar": -30.7,
   "druid": -29.9,
   "ranger": -29.7,
@@ -44,6 +43,7 @@
   "black knight": -15.9,
   "leywalker": -15.8,
   "barbarian": -15.4,
+  "gypsy": -15.3,
   "martial artist": -15.1,
   "gambler": -13.5,
   "exorcist": 0.0,
@@ -65,7 +65,6 @@
   "bounty hunter": 10.1,
   "minotaur": 13.8,
   "tinkerer": 14.4,
-  "gypsy": 14.6,
   "artificer": 15.5,
   "jester": 15.5,
   "doomsayer": 16.0,
@@ -103,4 +102,5 @@
   "ogre chieftain": 96.0,
   "leprechaun": 96.3,
   "conjurer": 103.4,
-  "al
+  "alchemist": 123.4
+}
