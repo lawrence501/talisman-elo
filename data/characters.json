@@ -37,6 +37,7 @@
   "necromancer": -16.0,
   "sorceress": -16.0,
   "rogue": -16.0,
+  "spider queen": -16.0,
   "black knight": -15.9,
   "leywalker": -15.8,
   "barbarian": -15.4,
@@ -49,8 +50,6 @@
   "minotaur": -2.2,
   "jester": -0.5,
   "exorcist": 0.0,
-  "spider queen": 0.0,
-  "clairvoyant": 0.0,
   "cleric": 0.0,
   "nomad": 0.7,
   "spectre collector": 0.8,
@@ -70,6 +69,7 @@
   "tinkerer": 14.4,
   "saracen": 14.7,
   "artificer": 15.5,
+  "clairvoyant": 16.0,
   "swindler": 16.6,
   "courtesan": 17.0,
   "assassin": 19.1,
@@ -103,4 +103,3 @@
   "leprechaun": 97.3,
   "conjurer": 119.1,
   "alchemist": 123.4
-}
