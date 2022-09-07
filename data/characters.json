@@ -13,6 +13,7 @@
   "shapeshifter": -60.0,
   "grave robber": -54.2,
   "ghoul": -48.0,
+  "ranger": -45.7,
   "elementalist": -45.4,
   "totem warrior": -42.4,
   "genie": -41.9,
@@ -26,8 +27,6 @@
   "archon": -31.7,
   "jin blooded": -31.3,
   "cat burglar": -30.7,
-  "druid": -29.9,
-  "ranger": -29.7,
   "dervish": -28.9,
   "woodsman": -17.0,
   "dragon priestess": -17.0,
@@ -43,6 +42,7 @@
   "barbarian": -15.4,
   "gypsy": -15.3,
   "martial artist": -15.1,
+  "druid": -13.9,
   "gambler": -13.5,
   "swordsman": -5.7,
   "shaman": -3.6,
@@ -103,3 +103,4 @@
   "leprechaun": 97.3,
   "conjurer": 119.1,
   "alchemist": 123.4
+}
