@@ -31,6 +31,7 @@
   "jin blooded": -31.3,
   "cat burglar": -30.7,
   "dervish": -28.9,
+  "shaman": -19.5,
   "goblin shaman": -16.0,
   "necromancer": -16.0,
   "sorceress": -16.0,
@@ -42,8 +43,6 @@
   "druid": -13.9,
   "gambler": -13.5,
   "swordsman": -5.7,
-  "shaman": -3.6,
-  "dread knight": -2.4,
   "minotaur": -2.2,
   "saracen": -1.3,
   "dragon priestess": -1.0,
@@ -67,6 +66,7 @@
   "warlord": 9.1,
   "black witch": 9.4,
   "bounty hunter": 10.1,
+  "dread knight": 13.5,
   "artificer": 15.5,
   "clairvoyant": 16.0,
   "swindler": 16.6,
@@ -103,4 +103,3 @@
   "leprechaun": 97.3,
   "conjurer": 119.1,
   "alchemist": 123.4
-}
