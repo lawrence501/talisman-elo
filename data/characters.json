@@ -1,10 +1,9 @@
 {
   "troll": -110.7,
   "vampire hunter": -99.5,
+  "pirate": -92.0,
   "magus": -78.7,
   "highlander": -77.8,
-  "dark cultist": -77.4,
-  "pirate": -76.9,
   "vampiress": -75.1,
   "trophy hunter": -65.3,
   "samurai": -64.7,
@@ -15,6 +14,7 @@
   "ghoul": -48.0,
   "ranger": -45.7,
   "elementalist": -45.4,
+  "dark cultist": -42.8,
   "totem warrior": -42.4,
   "genie": -41.9,
   "ninja": -40.7,
@@ -33,6 +33,7 @@
   "cat burglar": -30.7,
   "dervish": -28.9,
   "shaman": -19.5,
+  "priate": -19.5,
   "goblin shaman": -16.0,
   "necromancer": -16.0,
   "sorceress": -16.0,
@@ -101,6 +102,6 @@
   "warlock": 77.8,
   "ogre chieftain": 79.3,
   "leprechaun": 97.3,
-  "conjurer": 119.1,
-  "alchemist": 123.4
+  "conjurer": 103.3,
+  "alchemist": 139.2
 }
