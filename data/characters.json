@@ -14,7 +14,7 @@
   "ghoul": -48.0,
   "ranger": -45.7,
   "elementalist": -45.4,
-  "dark cultist": -42.8,
+  "dark cultist": -61.4,
   "totem warrior": -42.4,
   "genie": -41.9,
   "ninja": -40.7,
@@ -34,7 +34,6 @@
   "druid": -29.9,
   "dervish": -28.9,
   "shaman": -19.5,
-  "priate": -19.5,
   "minotaur": -18.4,
   "goblin shaman": -16.0,
   "necromancer": -16.0,
@@ -103,4 +102,5 @@
   "ogre chieftain": 79.3,
   "leprechaun": 97.3,
   "conjurer": 103.3,
-  "alchemist": 139.2
+  "alchemist": 139.2
+}
