@@ -27,6 +27,7 @@
   "illusionist": -32.6,
   "gladiator": -32.0,
   "philosopher": -32.0,
+  "necromancer": -32.0,
   "black knight": -31.9,
   "archon": -31.7,
   "jin blooded": -31.3,
@@ -35,8 +36,6 @@
   "shaman": -19.5,
   "minotaur": -18.4,
   "goblin shaman": -16.0,
-  "necromancer": -16.0,
-  "sorceress": -16.0,
   "rogue": -16.0,
   "engineer": -16.0,
   "leywalker": -15.8,
@@ -46,6 +45,7 @@
   "saracen": -1.3,
   "dragon priestess": -1.0,
   "jester": -0.5,
+  "sorceress": 0.0,
   "exorcist": 0.0,
   "cleric": 0.0,
   "nomad": 0.7,
@@ -102,4 +102,5 @@
   "arcane scion": 79.4,
   "leprechaun": 97.3,
   "conjurer": 103.3,
-  "alchemist": 139.2
+  "alchemist": 139.2
+}
