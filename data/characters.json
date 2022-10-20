@@ -46,6 +46,7 @@
   "saracen": -1.3,
   "dragon priestess": -1.0,
   "jester": -0.5,
+  "artificer": -0.5,
   "sorceress": 0.0,
   "exorcist": 0.0,
   "cleric": 0.0,
@@ -65,8 +66,6 @@
   "bounty hunter": 10.1,
   "swordsman": 10.5,
   "dread knight": 13.5,
-  "artificer": 15.5,
-  "spider queen": 16.0,
   "clairvoyant": 16.0,
   "priest": 16.0,
   "swindler": 16.6,
@@ -76,6 +75,7 @@
   "ascendant divine": 24.6,
   "black witch": 25.4,
   "tinkerer": 30.4,
+  "spider queen": 32.0,
   "witch hunter": 32.0,
   "minstrel": 32.2,
   "dwarf": 32.7,
@@ -103,3 +103,4 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
+}
