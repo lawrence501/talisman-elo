@@ -14,6 +14,7 @@
   "grave robber": -54.2,
   "witch doctor": -48.0,
   "ghoul": -48.0,
+  "gypsy": -47.3,
   "druid": -45.9,
   "ranger": -45.7,
   "elementalist": -45.4,
@@ -29,8 +30,6 @@
   "necromancer": -32.0,
   "black knight": -31.9,
   "archon": -31.7,
-  "jin blooded": -31.3,
-  "gypsy": -31.3,
   "cat burglar": -30.7,
   "genie": -25.8,
   "shaman": -19.5,
@@ -40,6 +39,7 @@
   "engineer": -16.0,
   "leywalker": -15.8,
   "barbarian": -15.4,
+  "jin blooded": -15.3,
   "martial artist": -15.1,
   "dragon rider": -13.4,
   "dervish": -12.9,
@@ -103,3 +103,4 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
+}
