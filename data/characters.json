@@ -40,6 +40,7 @@
   "engineer": -16.0,
   "leywalker": -15.8,
   "martial artist": -15.1,
+  "chivalric knight": -13.8,
   "dragon rider": -13.4,
   "dervish": -12.9,
   "warlord": -6.9,
@@ -53,8 +54,6 @@
   "jin blooded": 0.7,
   "nomad": 0.7,
   "courtesan": 1.1,
-  "spy": 1.7,
-  "chivalric knight": 2.2,
   "celestial": 2.2,
   "thief": 2.2,
   "merchant": 2.4,
@@ -71,6 +70,7 @@
   "tavern maid": 16.6,
   "spectre collector": 16.8,
   "ancient oak": 16.9,
+  "spy": 17.7,
   "gambler": 18.5,
   "pilgrim": 22.3,
   "ascendant divine": 24.6,
@@ -103,4 +103,3 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
-}
