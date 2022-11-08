@@ -36,6 +36,7 @@
   "shaman": -19.5,
   "minotaur": -18.4,
   "saracen": -17.3,
+  "artificer": -16.5,
   "goblin shaman": -16.0,
   "rogue": -16.0,
   "engineer": -16.0,
@@ -45,8 +46,6 @@
   "dragon rider": -13.4,
   "dervish": -12.9,
   "warlord": -6.9,
-  "jester": -0.5,
-  "artificer": -0.5,
   "sorceress": 0.0,
   "exorcist": 0.0,
   "cleric": 0.0,
@@ -64,6 +63,7 @@
   "swordsman": 10.5,
   "dread knight": 13.5,
   "dragon priestess": 15.0,
+  "jester": 15.5,
   "clairvoyant": 16.0,
   "priest": 16.0,
   "swindler": 16.6,
@@ -103,4 +103,3 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
-}
