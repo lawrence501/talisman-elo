@@ -64,6 +64,7 @@
   "dread knight": 13.5,
   "dragon priestess": 15.0,
   "jester": 15.5,
+  "spider queen": 15.9,
   "clairvoyant": 16.0,
   "priest": 16.0,
   "swindler": 16.6,
@@ -75,8 +76,6 @@
   "pilgrim": 22.3,
   "ascendant divine": 24.6,
   "black witch": 25.4,
-  "tinkerer": 30.4,
-  "spider queen": 32.0,
   "witch hunter": 32.0,
   "devil's minion": 32.0,
   "minstrel": 32.2,
@@ -87,6 +86,7 @@
   "sage": 42.5,
   "sprite": 45.1,
   "valkyrie": 45.9,
+  "tinkerer": 46.5,
   "vampire": 46.5,
   "wizard": 47.0,
   "possessed": 48.1,
@@ -103,3 +103,4 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
+}
