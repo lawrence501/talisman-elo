@@ -46,6 +46,7 @@
   "dragon rider": -13.4,
   "dervish": -12.9,
   "warlord": -6.9,
+  "bounty hunter": -5.9,
   "sorceress": 0.0,
   "exorcist": 0.0,
   "cleric": 0.0,
@@ -59,8 +60,6 @@
   "specialist": 3.5,
   "warrior": 4.2,
   "monk": 5.3,
-  "bounty hunter": 10.1,
-  "swordsman": 10.5,
   "dread knight": 13.5,
   "dragon priestess": 15.0,
   "jester": 15.5,
@@ -76,6 +75,7 @@
   "pilgrim": 22.3,
   "ascendant divine": 24.6,
   "black witch": 25.4,
+  "swordsman": 26.5,
   "witch hunter": 32.0,
   "devil's minion": 32.0,
   "minstrel": 32.2,
@@ -103,3 +103,4 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
+}
