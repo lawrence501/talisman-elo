@@ -1,7 +1,7 @@
 {
   "troll": -110.7,
-  "vampire hunter": -99.5,
-  "pirate": -92.0,
+  "pirate": -108.3,
+  "vampire hunter": -83.2,
   "satyr": -79.3,
   "magus": -78.7,
   "highlander": -77.8,
@@ -103,4 +103,3 @@
   "leprechaun": 97.3,
   "conjurer": 103.3,
   "alchemist": 139.2
-}
