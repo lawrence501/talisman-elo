@@ -36,13 +36,12 @@
   "dragon rider": -29.4,
   "shapeshifter": -28.2,
   "genie": -25.8,
+  "warlord": -22.9,
   "shaman": -19.5,
   "minotaur": -18.4,
   "swashbuckler": -18.3,
   "martial artist": -15.1,
   "chivalric knight": -13.8,
-  "warlord": -6.9,
-  "bounty hunter": -5.9,
   "artificer": -0.5,
   "rogue": 0.0,
   "sorceress": 0.0,
@@ -62,6 +61,7 @@
   "specialist": 3.5,
   "warrior": 4.2,
   "monk": 5.3,
+  "bounty hunter": 10.1,
   "dread knight": 13.5,
   "dragon priestess": 15.0,
   "jester": 15.5,
@@ -103,4 +103,3 @@
   "arcane scion": 95.4,
   "leprechaun": 113.6,
   "alchemist": 139.2
-}
