@@ -44,6 +44,7 @@
   "martial artist": -15.1,
   "chivalric knight": -13.8,
   "warrior": -11.7,
+  "dread knight": -2.7,
   "artificer": -0.5,
   "exorcist": 0.0,
   "cleric": 0.0,
@@ -59,8 +60,6 @@
   "dervish": 3.1,
   "amazon": 3.3,
   "specialist": 3.5,
-  "bounty hunter": 10.1,
-  "dread knight": 13.5,
   "dragon priestess": 15.0,
   "jester": 15.5,
   "spider queen": 15.9,
@@ -74,6 +73,7 @@
   "pilgrim": 22.3,
   "ascendant divine": 24.6,
   "black witch": 25.4,
+  "bounty hunter": 26.3,
   "mutant": 26.4,
   "swordsman": 26.5,
   "witch hunter": 32.0,
@@ -103,3 +103,4 @@
   "arcane scion": 95.4,
   "leprechaun": 113.6,
   "alchemist": 139.2
+}
