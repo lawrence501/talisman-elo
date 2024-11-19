@@ -7,6 +7,7 @@ from git import Git
 DATA_DIR = path.dirname(path.realpath(sys.argv[0])) + sep + "data" + sep
 K = 32
 EDITION = "-5e"
+FILENAME = f"characters{EDITION}.json"
 
 
 def getTransformedRating(rating):
@@ -36,7 +37,7 @@ def calculateNewElo(rating1, rating2, score1):
 
 
 def updateElo(char1, char2, char1Score=1):
-    with open(DATA_DIR + f"characters{EDITION}.json", 'r+') as f:
+    with open(DATA_DIR + FILENAME, 'r+') as f:
         characterData = json.load(f)
 
         if char1 not in characterData:
@@ -65,7 +66,7 @@ def updateElo(char1, char2, char1Score=1):
         commitMsg = "%s %s %s" % (char1, verb, char2)
         with Git().custom_environment(GIT_SSH_COMMAND="ssh -i %s" % path.expanduser("~/.ssh/id_rsa")):
             repo = Repo(path.dirname(path.realpath(sys.argv[0])) + sep + ".git")
-            repo.git.add(update=True)
+            repo.index.add([DATA_DIR + FILENAME])
             repo.index.commit(commitMsg)
 
 if __name__ == "__main__":
