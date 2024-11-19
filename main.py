@@ -6,6 +6,7 @@ from git import Git
 
 DATA_DIR = path.dirname(path.realpath(sys.argv[0])) + sep + "data" + sep
 K = 32
+EDITION = "-5e"
 
 
 def getTransformedRating(rating):
@@ -35,7 +36,7 @@ def calculateNewElo(rating1, rating2, score1):
 
 
 def updateElo(char1, char2, char1Score=1):
-    with open(DATA_DIR + "characters.json", 'r+') as f:
+    with open(DATA_DIR + f"characters{EDITION}.json", 'r+') as f:
         characterData = json.load(f)
 
         if char1 not in characterData:
