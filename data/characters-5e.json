@@ -1,5 +1,6 @@
 {
   "priest": -16.7,
+  "ghoul": -16.0,
   "troll": 0.0,
   "sorceress": 0.0,
   "dwarf": 0.0,
@@ -7,8 +8,7 @@
   "warrior": 0.0,
   "thief": 0.0,
   "monk": 0.0,
-  "prophetess": 0.0,
-  "ghoul": 0.0,
   "assassin": 0.7,
+  "prophetess": 16.0,
   "wizard": 16.0
 }
