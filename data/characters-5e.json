@@ -1,9 +1,9 @@
 {
+  "warrior": -32.0,
   "priest": -16.7,
   "ghoul": -16.0,
-  "warrior": -16.0,
-  "monk": -16.0,
   "dwarf": -16.0,
+  "monk": 0.0,
   "troll": 0.0,
   "thief": 0.0,
   "elf": 0.0,
