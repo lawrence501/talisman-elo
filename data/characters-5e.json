@@ -8,7 +8,7 @@
   "thief": 0.0,
   "elf": 0.0,
   "prophetess": 0.0,
-  "sorceress": 16.0,
-  "assassin": 16.7,
+  "assassin": 0.7,
+  "sorceress": 32.0,
   "wizard": 48.0
 }
