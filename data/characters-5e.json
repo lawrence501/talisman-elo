@@ -3,12 +3,16 @@
   "priest": -16.7,
   "ghoul": -16.0,
   "dwarf": -16.0,
+  "assassin": -15.3,
   "monk": 0.0,
   "troll": 0.0,
   "thief": 0.0,
   "elf": 0.0,
   "prophetess": 0.0,
-  "assassin": 0.7,
+  "dark cultist": 0.0,
+  "knight": 0.0,
+  "merchant": 0.0,
+  "sage": 0.0,
   "sorceress": 32.0,
   "wizard": 48.0
 }
