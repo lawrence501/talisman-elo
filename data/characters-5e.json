@@ -5,14 +5,14 @@
   "dwarf": -16.0,
   "merchant": -16.0,
   "dark cultist": -16.0,
+  "prophetess": -16.0,
   "monk": 0.0,
   "troll": 0.0,
   "thief": 0.0,
   "elf": 0.0,
-  "prophetess": 0.0,
-  "assassin": 0.7,
   "knight": 16.0,
   "sage": 16.0,
+  "assassin": 16.7,
   "sorceress": 32.0,
   "wizard": 48.0
 }
