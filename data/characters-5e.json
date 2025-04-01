@@ -9,10 +9,10 @@
   "thief": -16.0,
   "monk": 0.0,
   "troll": 0.0,
+  "knight": 0.0,
   "sorceress": 15.3,
-  "elf": 16.0,
-  "knight": 16.0,
   "sage": 16.0,
+  "elf": 32.0,
   "assassin": 33.4,
   "wizard": 48.0
 }
