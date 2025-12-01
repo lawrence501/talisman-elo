@@ -1,6 +1,5 @@
 {
-  "dark cultist": -63.3,
-  "ghoul": -16.7,
+  "dark cultist": -77.2,
   "priest": -16.7,
   "dwarf": -16.0,
   "prophetess": -16.0,
@@ -9,6 +8,7 @@
   "ogre chieftain": -16.0,
   "druid": -16.0,
   "leprechaun": -16.0,
+  "ghoul": -2.8,
   "warrior": 0.0,
   "merchant": 0.0,
   "monk": 0.0,
